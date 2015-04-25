@@ -1,6 +1,11 @@
 # Getting_and_Cleaning_Data
+You can run the script "run_analysis.R" by the following steps:
+1. clone the scripts and raw data to R workspace and open R
+2. source ("run_analysis.R")
+3. run_analysis()
 
-The steps are described in this document:
+
+The steps the script do are described in this document:
 1. read samples from raw data (including X,y,subject for test and train) , then merge the data by cbind
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. In this section, the meanFreq is excluded. The extracted data set is named as all_mean_std
